@@ -98,19 +98,14 @@
 
 <div align="center">
   <img src="https://github-readme-stats-one-bice.vercel.app/api?username=AbhinavSinghBhadouria&show_icons=true&theme=radical&hide_border=true&style=flat-square&locale=en" alt="Abhinav's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=AbhinavSinghBhadouria&layout=compact&theme=radical&hide_border=true&style=flat-square" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=AbhinavSinghBhadouria&layout=compact&theme=radical&hide_border=true&style=flat-square&exclude_repo=Virtual-Attendance-System" alt="Top Languages" width="48%" />
 </div>
 <br/>
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=AbhinavSinghBhadouria&theme=radical&hide_border=true&style=flat-square" alt="GitHub Streak" width="60%" />
 </div>
 
-<!-- 🏆 Trophies -->
-<div align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=AbhinavSinghBhadouria&theme=radical&no-frame=true&no-bg=true&margin-w=15" alt="Trophies" />
-  </a>
-</div>
+<br/>
 
 <br/>
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="divider" />
