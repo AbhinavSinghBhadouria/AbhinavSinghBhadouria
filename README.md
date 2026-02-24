@@ -97,8 +97,8 @@
 <p align="center"><i>Deep dive into my repository statistics and coding activity.</i></p>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AbhinavSinghBhadouria&show_icons=true&theme=radical&hide_border=true&style=flat-square&locale=en" alt="Abhinav's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbhinavSinghBhadouria&layout=compact&theme=radical&hide_border=true&style=flat-square" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats-one-bice.vercel.app/api?username=AbhinavSinghBhadouria&show_icons=true&theme=radical&hide_border=true&style=flat-square&locale=en" alt="Abhinav's GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=AbhinavSinghBhadouria&layout=compact&theme=radical&hide_border=true&style=flat-square" alt="Top Languages" width="48%" />
 </div>
 <br/>
 <div align="center">
@@ -122,9 +122,9 @@
 <div align="center">
   <!-- LeetCode Stats -->
   <img src="https://leetcard.jacoblin.cool/ABHINAV_LATC?theme=radical&font=Inter&ext=activity" alt="LeetCode Stats" width="48%" />
-  <!-- CodeChef Stats -->
+  <!-- CodeChef Dynamic Badge -->
   <a href="https://www.codechef.com/users/op_finalboss_7">
-    <img src="https://codechef-api.vercel.app/op_finalboss_7" alt="CodeChef Stats" width="48%" />
+    <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=5B4638&label=CodeChef%20Rating&query=currentrating&url=https%3A%2F%2Fcoding-cards.vercel.app%2Fapi%2Fcodechef-stats%3FuserName%3Dop_finalboss_7&logo=codechef&logoColor=white" alt="CodeChef Stats" width="30%" />
   </a>
 </div>
 
