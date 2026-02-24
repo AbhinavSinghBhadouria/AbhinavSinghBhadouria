@@ -5,16 +5,16 @@
 
 <!-- 🌐 Social Links -->
 <div align="center">
-  <a href="https://linkedin.com/in/abhinavsinghbhadouria" target="_blank">
+  <a href="https://www.linkedin.com/in/abhibhadouria08/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:your.email@example.com" target="_blank">
+  <a href="mailto:abhinavsinghbhadouria.cs@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="https://leetcode.com/abhinavbhadoriya/" target="_blank">
+  <a href="https://leetcode.com/ABHINAV_LATC/" target="_blank">
     <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=white" alt="LeetCode" />
   </a>
-  <a href="https://www.codechef.com/users/abhinavbhadoriya" target="_blank">
+  <a href="https://www.codechef.com/users/op_finalboss_7" target="_blank">
     <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=CodeChef&logoColor=white" alt="CodeChef" />
   </a>
 </div>
@@ -121,10 +121,10 @@
 
 <div align="center">
   <!-- LeetCode Stats -->
-  <img src="https://leetcard.jacoblin.cool/abhinavbhadoriya?theme=radical&font=Inter&ext=activity" alt="LeetCode Stats" width="48%" />
+  <img src="https://leetcard.jacoblin.cool/ABHINAV_LATC?theme=radical&font=Inter&ext=activity" alt="LeetCode Stats" width="48%" />
   <!-- CodeChef Stats -->
-  <a href="https://www.codechef.com/users/abhinavbhadoriya">
-    <img src="https://codechef-api.vercel.app/abhinavbhadoriya" alt="CodeChef Stats" width="48%" />
+  <a href="https://www.codechef.com/users/op_finalboss_7">
+    <img src="https://codechef-api.vercel.app/op_finalboss_7" alt="CodeChef Stats" width="48%" />
   </a>
 </div>
 
