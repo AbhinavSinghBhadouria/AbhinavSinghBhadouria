@@ -32,9 +32,9 @@
     <tr>
       <td valign="top" width="50%">
         <ul>
-          <li>🔭 I’m currently building an expansive MERN platform with real-time capabilities.</li>
-          <li>🌱 I’m currently learning deeper architectures in scalable microservices and LLM integrations.</li>
-          <li>👯 I’m looking to collaborate on open-source AI projects.</li>
+          <li>🔭 I'm currently building an expansive MERN platform with real-time capabilities.</li>
+          <li>🌱 I'm currently learning deeper architectures in scalable microservices and LLM integrations.</li>
+          <li>👯 I'm looking to collaborate on open-source AI projects.</li>
         </ul>
       </td>
       <td valign="top" width="50%">
@@ -52,7 +52,7 @@
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="divider" />
 <br/>
 
-<!-- �️ Tech Stack & Languages -->
+<!-- 🛠️ Tech Stack & Languages -->
 <h2 align="center">🛠️ Languages & Tools</h2>
 <p align="center"><i>A comprehensive overview of my technical stack and the tools I use daily.</i></p>
 
@@ -81,7 +81,7 @@
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=git,docker,linux,postman,vercel,figma&theme=dark" alt="Tools" />
   </a>
-  
+
   <h3>🤖 AI / ML</h3>
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=scikitlearn,tensorflow,pytorch&theme=dark" alt="AI/ML" />
@@ -106,24 +106,32 @@
 </div>
 
 <br/>
-
-<br/>
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="divider" />
 <br/>
 
-<!-- ⚡ Competitive Programming Stats -->
+<!-- ⚡ Competitive Programming -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="divider" />
+
 <h2 align="center">⚡ Competitive Programming</h2>
 
 <div align="center">
-  <!-- LeetCode Stats -->
-  <img src="https://leetcard.jacoblin.cool/ABHINAV_LATC?theme=radical&font=Inter&ext=activity" alt="LeetCode Stats" width="48%" />
-  <!-- CodeChef Dynamic Badge -->
-  <a href="https://www.codechef.com/users/op_finalboss_7">
-    <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=5B4638&label=CodeChef%20Rating&query=currentrating&url=https%3A%2F%2Fcoding-cards.vercel.app%2Fapi%2Fcodechef-stats%3FuserName%3Dop_finalboss_7&logo=codechef&logoColor=white" alt="CodeChef Stats" width="30%" />
-  </a>
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+      <td align="center" valign="middle">
+        <img src="https://leetcard.jacoblin.cool/ABHINAV_LATC?theme=radical&font=Inter&ext=activity" alt="LeetCode Stats" width="480" />
+      </td>
+    </tr>
+    <tr>
+      <td align="right" valign="bottom">
+        <a href="https://www.codechef.com/users/op_finalboss_7">
+          <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=5B4638&label=CODECHEF%20RATING&query=currentrating&url=https%3A%2F%2Fcoding-cards.vercel.app%2Fapi%2Fcodechef-stats%3FuserName%3Dop_finalboss_7&logo=codechef&logoColor=white" alt="CodeChef Rating"/>
+        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </td>
+    </tr>
+  </table>
 </div>
 
-<br/>
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="divider" />
 <br/>
 
@@ -162,6 +170,8 @@
 </table>
 
 <br/>
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="divider" />
+<br/>
 
 <!-- 🐍 Contribution Graph -->
 <h2 align="center">🐍 Contribution Matrix</h2>
@@ -172,4 +182,11 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AbhinavSinghBhadouria/AbhinavSinghBhadouria/output/github-contribution-grid-snake.svg">
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/AbhinavSinghBhadouria/AbhinavSinghBhadouria/output/github-contribution-grid-snake.svg">
   </picture>
+</div>
+
+<br/>
+
+<!-- Footer -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Footer" />
 </div>
