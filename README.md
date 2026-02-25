@@ -111,25 +111,10 @@
 
 <!-- ⚡ Competitive Programming -->
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="divider" />
-
 <h2 align="center">⚡ Competitive Programming</h2>
 
 <div align="center">
-  <table border="0" cellpadding="0" cellspacing="0" width="100%">
-    <tr>
-      <td align="center" valign="middle">
-        <img src="https://leetcard.jacoblin.cool/ABHINAV_LATC?theme=radical&font=Inter&ext=activity" alt="LeetCode Stats" width="480" />
-      </td>
-    </tr>
-    <tr>
-      <td align="right" valign="bottom">
-        <a href="https://www.codechef.com/users/op_finalboss_7">
-          <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=5B4638&label=CODECHEF%20RATING&query=currentrating&url=https%3A%2F%2Fcoding-cards.vercel.app%2Fapi%2Fcodechef-stats%3FuserName%3Dop_finalboss_7&logo=codechef&logoColor=white" alt="CodeChef Rating"/>
-        </a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      </td>
-    </tr>
-  </table>
+  <img src="https://leetcard.jacoblin.cool/ABHINAV_LATC?theme=radical&font=Inter&ext=activity" alt="LeetCode Stats" width="60%" />
 </div>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="divider" />
