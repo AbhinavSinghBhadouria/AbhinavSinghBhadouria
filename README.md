@@ -1,10 +1,13 @@
-<!-- 💫 Dynamic Header -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Hi%20👋,%20I'm%20Abhinav%20Singh%20Bhadouria&fontSize=50&desc=MERN%20Stack%20Developer%20%7C%20AI/ML%20Enthusiast%20%7C%20Competitive%20Programmer&descAlignY=70&descAlign=50" alt="Header" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./light.svg" />
+    <img src="./dark.svg" alt="Abhinav Singh Bhadouria - Full-Stack Developer &amp; AI Specialist" width="100%" />
+  </picture>
 </div>
 
-<!-- 🌐 Social Links -->
 <div align="center">
+
   <a href="https://www.linkedin.com/in/abhibhadouria08/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
@@ -17,161 +20,315 @@
   <a href="https://www.codechef.com/users/op_finalboss_7" target="_blank">
     <img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=CodeChef&logoColor=white" alt="CodeChef" />
   </a>
+  <a href="https://github.com/AbhinavSinghBhadouria" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+
 </div>
 
-<br/>
-
-<!-- 👨‍💻 About Me -->
-<h2 align="center">👨‍💻 About Me</h2>
-<div align="center">
-  <p>I am a passionate <b>Full-Stack Developer</b> and <b>Algorithm Enthusiast</b> who loves building scalable web applications and exploring the frontiers of Artificial Intelligence and Machine Learning.</p>
+<div align="center" style="margin-top: 8px;">
+  <img src="https://komarev.com/ghpvc/?username=AbhinavSinghBhadouria&style=for-the-badge&color=818cf8&label=PROFILE+VIEWS" alt="Profile Views" />
+  <img src="https://img.shields.io/badge/STATUS-OPEN_FOR_OPPORTUNITIES-10B981?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status" />
+  <img src="https://img.shields.io/badge/RESPONSE_LATENCY-%3C1MS-38BDF8?style=for-the-badge&logo=speedtest&logoColor=white" alt="Latency" />
 </div>
 
+<br />
+
+---
+
+### 👨‍💻 `About & Engineering Philosophy`
+
+<table>
+  <tr>
+    <td width="26%" align="center" valign="middle">
+      <img src="./avatar.svg" width="160" alt="Abhinav Singh Bhadouria" />
+      <br />
+      <b>Abhinav Singh Bhadouria</b><br />
+      <sub>Full-Stack &amp; AI Engineer</sub>
+    </td>
+    <td width="74%" valign="top">
+
+```typescript
+interface Developer {
+  name: string;
+  focus: string[];
+  architecture: string[];
+  principles: string[];
+}
+
+const abhinav: Developer = {
+  name: "Abhinav Singh Bhadouria",
+  focus: ["Scalable MERN Web", "Real-Time WebSocket Platforms", "LLM Inference & Agentic Workflows"],
+  architecture: ["Distributed Microservices", "Containerization (Docker)", "High-Concurrency Caching (Redis)"],
+  principles: ["Sub-millisecond Latency", "Clean Type-Safe Code", "Algorithmic Efficiency"]
+};
+```
+
+    </td>
+  </tr>
+</table>
+
+* 🔭 **Active Build**: Engineering robust real-time communication systems and AI workflows with sub-millisecond response guarantees.
+* 🌱 **Researching**: Efficient retrieval-augmented generation (RAG), Groq-accelerated inference pipelines, and scalable microservice orchestration.
+* ⚡ **Competitive Problem Solving**: Regular problem solver on **LeetCode** and **CodeChef**, continually optimizing time and space complexity.
+* 💬 **Let's Talk About**: Full-Stack Architecture, React/Next.js ecosystem, Distributed WebSockets, Python, and DSA.
+
+<br />
+
+---
+
+### 🖥️ `Interactive System Diagnostics & Node Telemetry`
+
 <div align="center">
-  <table border="0" cellpadding="0" cellspacing="0">
+  <img src="./terminal.svg" alt="System Diagnostics Terminal" width="100%" />
+</div>
+
+<br />
+
+---
+
+### 🚀 `Flagship Projects`
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3 align="center">🌐 Elyvo</h3>
+      <p align="center"><b>Real-Time Communication Platform</b></p>
+      <p>A full-duplex WebSocket platform containerized with Docker to guarantee horizontal scalability, high concurrency, and sub-millisecond messaging latency.</p>
+      <ul>
+        <li>Full-duplex WebSocket architecture</li>
+        <li>Dockerized container deployment</li>
+        <li>Sub-millisecond latency messaging</li>
+      </ul>
+      <br />
+      <div align="center">
+        <img src="https://img.shields.io/badge/MERN-4EA94B?style=flat-square" alt="MERN" />
+        <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="WebSockets" />
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+      </div>
+    </td>
+    <td width="33%" valign="top">
+      <h3 align="center">🧠 Nebula Notes</h3>
+      <p align="center"><b>AI Note Synthesis &amp; Knowledge Engine</b></p>
+      <p>An intelligent workspace powered by the LLaMA 3 foundation model integrated via high-throughput Groq API for rapid summarization and contextual synthesis.</p>
+      <ul>
+        <li>LLaMA 3 AI text generation &amp; summarization</li>
+        <li>Ultra-low latency Groq API integration</li>
+        <li>MERN stack architecture &amp; state management</li>
+      </ul>
+      <br />
+      <div align="center">
+        <img src="https://img.shields.io/badge/MERN-4EA94B?style=flat-square" alt="MERN" />
+        <img src="https://img.shields.io/badge/LLaMA_3-0467DF?style=flat-square&logo=meta&logoColor=white" alt="LLaMA 3" />
+        <img src="https://img.shields.io/badge/Groq_API-F55036?style=flat-square" alt="Groq API" />
+      </div>
+    </td>
+    <td width="33%" valign="top">
+      <h3 align="center">📈 House Price Engine</h3>
+      <p align="center"><b>End-to-End ML Regression Pipeline</b></p>
+      <p>A robust machine learning pipeline built with Python and Scikit-Learn that predicts real estate valuations with high accuracy across multidimensional feature spaces.</p>
+      <ul>
+        <li>Multivariate regression &amp; data preprocessing</li>
+        <li>Scikit-Learn predictive modeling</li>
+        <li>Exploratory data analysis &amp; validation</li>
+      </ul>
+      <br />
+      <div align="center">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="Scikit-Learn" />
+        <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
+      </div>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<details>
+  <summary><b>⚙️ Click to Expand: Deep Dive Architectural Specifications &amp; Design Specs</b></summary>
+  <br />
+  <blockquote>
+    <h4>1. High-Concurrency WebSocket Topology (Elyvo)</h4>
+    <p>Engineered around an event-driven loop separating connection handling from background message routing. Employs horizontal container scaling and connection pooling to ensure zero packet drop and sub-millisecond broadcast latency under concurrent socket handshakes.</p>
+    
+    <h4>2. Low-Latency Inference Pipeline (Nebula Notes)</h4>
+    <p>Utilizes Groq LPU (Language Processing Unit) acceleration combined with token-stream chunking for sub-second text summarization. State persistence is managed through normalized document stores with optimistic UI rendering on the React frontend.</p>
+    
+    <h4>3. Predictive Modeling &amp; Feature Pipelines (ML Engine)</h4>
+    <p>Standardized transformation pipelines including one-hot categorical encoding, outlier clipping via interquartile range (IQR), and cross-validated regularized regression (Ridge / Lasso) preventing overfitting.</p>
+  </blockquote>
+</details>
+
+<br />
+
+---
+
+### 🛠️ `Technical Arsenal & Tooling`
+
+<div align="center">
+
+#### 💻 Programming Languages
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=typescript,javascript,python,cpp,java,html,css&theme=dark" alt="Languages" />
+</a>
+
+<br />
+
+#### 🌐 Frontend & UI Engineering
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,redux,materialui,bootstrap&theme=dark" alt="Frontend" />
+</a>
+
+<br />
+
+#### ⚙️ Backend, APIs & Real-Time
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,fastapi,graphql&theme=dark" alt="Backend" />
+</a>
+
+<br />
+
+#### 🗄️ Databases & Cloud Architecture
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=mongodb,postgres,redis,firebase,supabase,aws&theme=dark" alt="Databases" />
+</a>
+
+<br />
+
+#### 🤖 AI / Machine Learning & DevOps
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,scikitlearn,git,docker,linux,postman,vercel,figma&theme=dark" alt="AI & Tools" />
+</a>
+
+</div>
+
+<br />
+
+---
+
+### ⚡ `Competitive Programming & DSA Mastery`
+
+<div align="center">
+  <a href="https://leetcode.com/ABHINAV_LATC/" target="_blank">
+    <img src="https://leetcard.jacoblin.cool/ABHINAV_LATC?theme=radical&font=Inter&ext=activity" alt="LeetCode Profile Card" width="60%" />
+  </a>
+</div>
+
+<br />
+
+<details>
+  <summary><b>🧠 Click to View: Problem Solving Domains &amp; Algorithmic Mastery</b></summary>
+  <br />
+  <table>
     <tr>
-      <td valign="top" width="50%">
+      <td width="50%">
+        <b>Core Algorithmic Strengths</b>
         <ul>
-          <li>🔭 I'm currently building an expansive MERN platform with real-time capabilities.</li>
-          <li>🌱 I'm currently learning deeper architectures in scalable microservices and LLM integrations.</li>
-          <li>👯 I'm looking to collaborate on open-source AI projects.</li>
+          <li>Dynamic Programming (1D / 2D / Bitmask)</li>
+          <li>Graph Algorithms (Dijkstra, BFS/DFS, TopoSort, DSU)</li>
+          <li>Binary Trees, BSTs &amp; Segment Trees</li>
+          <li>Two Pointers &amp; Sliding Window Optimization</li>
         </ul>
       </td>
-      <td valign="top" width="50%">
+      <td width="50%">
+        <b>System &amp; Engineering Focus</b>
         <ul>
-          <li>💬 Ask me about React, Node.js, DSA, and integrating AI into the web.</li>
-          <li>📫 How to reach me: Connect with me on LinkedIn!</li>
-          <li>⚡ Fun fact: I spend my free time optimizing algorithms and drinking too much coffee.</li>
+          <li>Time Complexity: Strict O(N) / O(log N) runtime guarantees</li>
+          <li>Space Optimization: In-place memory transforms</li>
+          <li>Recursion to Iterative conversion &amp; Stack safety</li>
+          <li>Asynchronous event-loop non-blocking models</li>
         </ul>
       </td>
     </tr>
   </table>
-</div>
+</details>
 
-<br/>
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="divider" />
-<br/>
+<br />
 
-<!-- 🛠️ Tech Stack & Languages -->
-<h2 align="center">🛠️ Languages & Tools</h2>
-<p align="center"><i>A comprehensive overview of my technical stack and the tools I use daily.</i></p>
+---
+
+### 🏆 `GitHub Achievements & Badges`
 
 <div align="center">
-  <h3>💻 Languages</h3>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=javascript,typescript,python,cpp,java,html,css&theme=dark" alt="Languages" />
-  </a>
-
-  <h3>🌐 Frontend Development</h3>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,bootstrap,redux,materialui&theme=dark" alt="Frontend" />
-  </a>
-
-  <h3>⚙️ Backend & APIs</h3>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nodejs,express,graphql,nestjs,fastapi&theme=dark" alt="Backend" />
-  </a>
-
-  <h3>🗄️ Databases & Cloud</h3>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=mongodb,postgres,redis,firebase,aws,supabase&theme=dark" alt="Databases" />
-  </a>
-
-  <h3>🔧 Tools & DevOps</h3>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,docker,linux,postman,vercel,figma&theme=dark" alt="Tools" />
-  </a>
-
-  <h3>🤖 AI / ML</h3>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=scikitlearn,tensorflow,pytorch&theme=dark" alt="AI/ML" />
-  </a>
+  <img src="https://github-profile-trophy.vercel.app/?username=AbhinavSinghBhadouria&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=1&column=7" alt="GitHub Trophies" width="95%" />
 </div>
 
-<br/>
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="divider" />
-<br/>
+<br />
 
-<!-- 📊 GitHub Analytics -->
-<h2 align="center">📈 GitHub Analytics</h2>
-<p align="center"><i>Deep dive into my repository statistics and coding activity.</i></p>
+---
+
+### 📈 `GitHub Analytics & Activity`
 
 <div align="center">
   <img src="https://github-readme-stats-one-bice.vercel.app/api?username=AbhinavSinghBhadouria&show_icons=true&theme=radical&hide_border=true&style=flat-square&locale=en" alt="Abhinav's GitHub Stats" width="48%" />
   <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=AbhinavSinghBhadouria&layout=compact&theme=radical&hide_border=true&style=flat-square&exclude_repo=Virtual-Attendance-System" alt="Top Languages" width="48%" />
 </div>
-<br/>
+
+<br />
+
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=AbhinavSinghBhadouria&theme=radical&hide_border=true&style=flat-square" alt="GitHub Streak" width="60%" />
 </div>
 
-<br/>
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="divider" />
-<br/>
+<br />
 
-<!-- ⚡ Competitive Programming -->
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="divider" />
-<h2 align="center">⚡ Competitive Programming</h2>
+---
+
+### 🐍 `Contribution Matrix`
 
 <div align="center">
-  <img src="https://leetcard.jacoblin.cool/ABHINAV_LATC?theme=radical&font=Inter&ext=activity" alt="LeetCode Stats" width="60%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AbhinavSinghBhadouria/AbhinavSinghBhadouria/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AbhinavSinghBhadouria/AbhinavSinghBhadouria/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/AbhinavSinghBhadouria/AbhinavSinghBhadouria/output/github-contribution-grid-snake.svg" />
+  </picture>
 </div>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="divider" />
-<br/>
+<br />
 
-<!-- 🚀 Featured Projects -->
-<h2 align="center">🚀 Flagship Projects</h2>
+---
 
-<table bordercolor="#30363d">
+### 🤝 `Let's Connect & Collaborate`
+
+<div align="center">
+
+<table>
   <tr>
-    <td width="33%" align="center" valign="top">
-      <h3>🌐 Elyvo</h3>
-      <br/>
-      <p align="left">A highly scalable real-time communication platform utilizing full-duplex WebSockets and containerized using Docker to ensure high availability and rapid deployment.</p>
-      <br/>
-      <img src="https://img.shields.io/badge/MERN-4EA94B?style=flat-square" />
-      <img src="https://img.shields.io/badge/WebSockets-black?style=flat-square&logo=socket.io&logoColor=white" />
-      <img src="https://img.shields.io/badge/Docker-2CA5E0?style=flat-square&logo=docker&logoColor=white" />
+    <td align="center" width="25%">
+      <a href="https://www.linkedin.com/in/abhibhadouria08/">
+        <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /><br />
+        <sub><b>Network &amp; Careers</b></sub>
+      </a>
     </td>
-    <td width="33%" align="center" valign="top">
-      <h3>🧠 Nebula Notes</h3>
-      <br/>
-      <p align="left">An intelligent note-taking application powered by AI. Integrates the LLaMA 3 model via the lightning-fast Groq API for smart summarization and content generation.</p>
-      <br/>
-      <img src="https://img.shields.io/badge/MERN-4EA94B?style=flat-square" />
-      <img src="https://img.shields.io/badge/LLaMA_3-black?style=flat-square" />
-      <img src="https://img.shields.io/badge/Groq_API-f55036?style=flat-square" />
+    <td align="center" width="25%">
+      <a href="mailto:abhinavsinghbhadouria.cs@gmail.com">
+        <img src="https://img.shields.io/badge/Email-Direct_Inbox-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /><br />
+        <sub><b>Inquiries &amp; Collabs</b></sub>
+      </a>
     </td>
-    <td width="33%" align="center" valign="top">
-      <h3>📈 House Price Prediction</h3>
-      <br/>
-      <p align="left">An end-to-end Machine Learning pipeline built with Python that predicts real estate prices with high accuracy using advanced regression algorithms and Scikit-Learn.</p>
-      <br/>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-      <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
+    <td align="center" width="25%">
+      <a href="https://leetcode.com/ABHINAV_LATC/">
+        <img src="https://img.shields.io/badge/LeetCode-DSA_Profile-FFA116?style=for-the-badge&logo=LeetCode&logoColor=white" alt="LeetCode" /><br />
+        <sub><b>Algorithm Track</b></sub>
+      </a>
+    </td>
+    <td align="center" width="25%">
+      <a href="https://github.com/AbhinavSinghBhadouria?tab=repositories">
+        <img src="https://img.shields.io/badge/GitHub-Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repos" /><br />
+        <sub><b>Explore Codebases</b></sub>
+      </a>
     </td>
   </tr>
 </table>
 
-<br/>
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="divider" />
-<br/>
-
-<!-- 🐍 Contribution Graph -->
-<h2 align="center">🐍 Contribution Matrix</h2>
-<div align="center">
-  <p><i>My GitHub commit history, animated as a game of Snake every 12 hours.</i></p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AbhinavSinghBhadouria/AbhinavSinghBhadouria/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AbhinavSinghBhadouria/AbhinavSinghBhadouria/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/AbhinavSinghBhadouria/AbhinavSinghBhadouria/output/github-contribution-grid-snake.svg">
-  </picture>
 </div>
 
-<br/>
+<br />
 
-<!-- Footer -->
+---
+
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Footer" />
+  <p><i>"Building high-performance systems through algorithmic clarity and resilient design."</i></p>
+  <sub>Architected with ⚡ by <a href="https://github.com/AbhinavSinghBhadouria">Abhinav Singh Bhadouria</a> · Open Source Architecture</sub>
 </div>
+
