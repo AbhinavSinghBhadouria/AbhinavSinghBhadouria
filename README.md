@@ -1,8 +1,8 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./light.svg" />
-    <img src="./dark.svg" alt="Abhinav Singh Bhadouria - Full-Stack Developer &amp; AI Specialist" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AbhinavSinghBhadouria/AbhinavSinghBhadouria/main/dark.svg?v=3" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AbhinavSinghBhadouria/AbhinavSinghBhadouria/main/light.svg?v=3" />
+    <img src="https://raw.githubusercontent.com/AbhinavSinghBhadouria/AbhinavSinghBhadouria/main/dark.svg?v=3" alt="Abhinav Singh Bhadouria - Full-Stack Developer &amp; AI Specialist" width="100%" />
   </picture>
 </div>
 
@@ -331,3 +331,4 @@ const abhinav: Developer = {
   <p><i>"Building high-performance systems through algorithmic clarity and resilient design."</i></p>
   <sub>Architected with ⚡ by <a href="https://github.com/AbhinavSinghBhadouria">Abhinav Singh Bhadouria</a> · Open Source Architecture</sub>
 </div>
+
