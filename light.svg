@@ -1,0 +1,355 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="1180" height="610" role="img" aria-label="Abhinav Singh Bhadouria - Full-Stack Developer, AI/ML Specialist, Competitive Programmer">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#eef2f7"/>
+    </linearGradient>
+
+    <linearGradient id="panelGradLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#f8fafc" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <linearGradient id="blueVioletGradLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="45%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+
+    <linearGradient id="accentBorderLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.6"/>
+      <stop offset="30%" stop-color="#818cf8" stop-opacity="0.3"/>
+      <stop offset="70%" stop-color="#7c3aed" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <linearGradient id="scanlineGradLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#0284c7" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="gridPatternLight" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#e2e8f0" stroke-width="0.85"/>
+      <circle cx="28" cy="28" r="0.8" fill="#0284c7" fill-opacity="0.3"/>
+    </pattern>
+
+    <!-- Filters -->
+    <filter id="softShadowLight" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .hero-title-light { font-size: 26px; font-weight: 800; letter-spacing: -0.5px; fill: url(#blueVioletGradLight); }
+    .label-header-light { font-size: 11px; font-weight: 700; fill: #64748b; letter-spacing: 1.5px; }
+    .accent-label-light { font-size: 11px; font-weight: 700; fill: #0284c7; letter-spacing: 0.5px; }
+    .purple-label-light { font-size: 11px; font-weight: 700; fill: #7c3aed; letter-spacing: 0.5px; }
+    .emerald-label-light { font-size: 11px; font-weight: 700; fill: #059669; letter-spacing: 0.5px; }
+    .val-primary-light { font-size: 12.5px; font-weight: 600; fill: #0f172a; }
+    .val-muted-light { font-size: 11.5px; font-weight: 500; fill: #475569; }
+    .ascii-matrix-light { font-size: 8.8px; line-height: 9.8px; fill: #0284c7; font-weight: 600; letter-spacing: 1.2px; }
+    .pill-box-light { fill: #f1f5f9; stroke: #cbd5e1; stroke-width: 1; rx: 6px; }
+    .pill-txt-light { font-size: 11px; font-weight: 600; fill: #1e293b; }
+  </style>
+
+  <!-- Outer Frame -->
+  <rect x="10" y="10" width="1160" height="590" rx="22" ry="22" fill="url(#bgGradLight)" stroke="url(#accentBorderLight)" stroke-width="1.5"/>
+  <rect x="10" y="10" width="1160" height="590" rx="22" ry="22" fill="url(#gridPatternLight)"/>
+
+  <!-- Top Terminal Chrome / Window Header -->
+  <path d="M 10 32 Q 10 10 32 10 L 1148 10 Q 1170 10 1170 32 L 1170 50 L 10 50 Z" fill="#f8fafc"/>
+  <line x1="10" y1="50" x2="1170" y2="50" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Window Controls -->
+  <circle cx="36" cy="30" r="5.5" fill="#ef4444"/>
+  <circle cx="54" cy="30" r="5.5" fill="#f59e0b"/>
+  <circle cx="72" cy="30" r="5.5" fill="#10b981"/>
+
+  <!-- Terminal Tabs -->
+  <g transform="translate(102, 17)">
+    <rect width="168" height="26" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="14" y="17" class="mono" font-size="11" fill="#0284c7" font-weight="700">⚡ visual_kernel.ts</text>
+  </g>
+  <g transform="translate(278, 17)">
+    <rect width="168" height="26" rx="6" fill="#f1f5f9"/>
+    <text x="14" y="17" class="mono" font-size="11" fill="#64748b" font-weight="500">⚙ system_profile.env</text>
+  </g>
+  <g transform="translate(454, 17)">
+    <rect width="168" height="26" rx="6" fill="#f1f5f9"/>
+    <text x="14" y="17" class="mono" font-size="11" fill="#64748b" font-weight="500">🚀 flagship_builds.sh</text>
+  </g>
+
+  <!-- Top System Telemetry HUD -->
+  <g transform="translate(900, 20)">
+    <rect width="250" height="22" rx="11" fill="#ffffff" stroke="#cbd5e1" stroke-width="1"/>
+    <circle cx="12" cy="11" r="3.5" fill="#10b981">
+      <animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="24" y="15" class="mono" font-size="10.5" fill="#047857" font-weight="700" letter-spacing="0.5">SYS.ONLINE</text>
+    <text x="96" y="15" class="mono" font-size="10.5" fill="#94a3b8">|</text>
+    <text x="108" y="15" class="mono" font-size="10" fill="#64748b">LATENCY: 0.4ms</text>
+    <text x="198" y="15" class="mono" font-size="10" fill="#0284c7">v2.4</text>
+  </g>
+
+  <!-- ================= LEFT PANEL: VISUAL.MAP / ASCII IDENTITY ================= -->
+  <g transform="translate(36, 68)" filter="url(#softShadowLight)">
+    <!-- Panel Background -->
+    <rect width="414" height="506" rx="16" fill="url(#panelGradLight)" stroke="#e2e8f0" stroke-width="1.2"/>
+
+    <!-- Left Panel Header -->
+    <path d="M 0 16 Q 0 0 16 0 L 398 0 Q 414 0 414 16 L 414 36 L 0 36 Z" fill="#f1f5f9"/>
+    <line x1="0" y1="36" x2="414" y2="36" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="18" y="23" class="mono label-header-light" fill="#0284c7">01 // VISUAL.KERNEL</text>
+    <text x="315" y="23" class="mono" font-size="10.5" fill="#64748b">[ ASCII_CORE ]</text>
+
+    <!-- ASCII Canvas Container -->
+    <g transform="translate(18, 50)">
+      <rect width="378" height="308" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+      
+      <!-- Subtle Grid on ASCII canvas -->
+      <line x1="0" y1="77" x2="378" y2="77" stroke="#e2e8f0" stroke-width="0.75"/>
+      <line x1="0" y1="154" x2="378" y2="154" stroke="#e2e8f0" stroke-width="0.75"/>
+      <line x1="0" y1="231" x2="378" y2="231" stroke="#e2e8f0" stroke-width="0.75"/>
+      <line x1="189" y1="0" x2="189" y2="308" stroke="#e2e8f0" stroke-width="0.75"/>
+
+      <!-- High-Density Cyber Developer ASCII Art -->
+      <g transform="translate(20, 15)">
+        <text class="mono ascii-matrix-light" xml:space="preserve">
+          <tspan x="0" y="11">           .:::^^^^^^^^^:::.           </tspan>
+          <tspan x="0" y="22">       .:^~?5GB########BG5?~^:.        </tspan>
+          <tspan x="0" y="33">     :^!YPBB&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;BBY!^:      </tspan>
+          <tspan x="0" y="44">    :!JGB&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;BGJ!:     </tspan>
+          <tspan x="0" y="55">   :?P#&amp;&amp;&amp;&amp;&amp;&amp;&amp;########&amp;&amp;&amp;&amp;&amp;&amp;&amp;#P?:    </tspan>
+          <tspan x="0" y="66">   !5#&amp;&amp;&amp;&amp;BPJ7!^::::^!7JPB&amp;&amp;&amp;&amp;#5!    </tspan>
+          <tspan x="0" y="77">   J#&amp;&amp;&amp;BY~.              .~YB&amp;&amp;&amp;#J    </tspan>
+          <tspan x="0" y="88">   5&amp;&amp;&amp;B!   [ 01000001 ]     !B&amp;&amp;&amp;5    </tspan>
+          <tspan x="0" y="99">   5&amp;&amp;&amp;G    [ DEV_CORE ]     G&amp;&amp;&amp;5    </tspan>
+          <tspan x="0" y="110">   J#&amp;&amp;&amp;P~.              .~P&amp;&amp;&amp;#J    </tspan>
+          <tspan x="0" y="121">   !5#&amp;&amp;&amp;&amp;B5J7!^::::^!7J5B&amp;&amp;&amp;&amp;#5!    </tspan>
+          <tspan x="0" y="132">   :?P#&amp;&amp;&amp;&amp;&amp;&amp;&amp;########&amp;&amp;&amp;&amp;&amp;&amp;&amp;#P?:    </tspan>
+          <tspan x="0" y="143">    :!JGB&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;BGJ!:     </tspan>
+          <tspan x="0" y="154">     :^!YPBB&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;BBY!^:      </tspan>
+          <tspan x="0" y="165">       .:^~?5GB########BG5?~^:.        </tspan>
+          <tspan x="0" y="176">           .:::^^^^^^^^^:::.           </tspan>
+          <tspan x="0" y="196" fill="#4f46e5">       ┌─── [ ARCHITECTURE ] ───┐      </tspan>
+          <tspan x="0" y="210" fill="#059669">       │  FULL-STACK · AI · DSA │      </tspan>
+          <tspan x="0" y="224" fill="#0284c7">       └─── [ STATUS: ONLINE ] ─┘      </tspan>
+          <tspan x="0" y="240" fill="#64748b">   01100001 01100010 01101000 01101001  </tspan>
+          <tspan x="0" y="254" fill="#94a3b8">   &gt; HASH: SHA256:7f83b1657ff1fc53b9 &lt;  </tspan>
+        </text>
+      </g>
+
+      <!-- Scanline Sweeper Animation -->
+      <rect x="0" y="0" width="378" height="42" fill="url(#scanlineGradLight)">
+        <animateTransform attributeName="transform" type="translate" values="0 -42; 0 308; 0 -42" dur="4.2s" repeatCount="indefinite"/>
+      </rect>
+
+      <!-- Corner HUD Accents -->
+      <path d="M 8 18 L 8 8 L 18 8" stroke="#0284c7" stroke-width="1.75" fill="none"/>
+      <path d="M 370 18 L 370 8 L 360 8" stroke="#0284c7" stroke-width="1.75" fill="none"/>
+      <path d="M 8 290 L 8 300 L 18 300" stroke="#0284c7" stroke-width="1.75" fill="none"/>
+      <path d="M 370 290 L 370 300 L 360 300" stroke="#0284c7" stroke-width="1.75" fill="none"/>
+    </g>
+
+    <!-- Bottom Command / Execution Panel -->
+    <g transform="translate(18, 370)">
+      <rect width="378" height="118" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+      <text x="14" y="24" class="mono" font-size="11.5" fill="#0284c7" font-weight="700">~/abhinav $</text>
+      <text x="100" y="24" class="mono" font-size="11.5" fill="#0f172a">git commit -m "build &amp; ship"</text>
+      
+      <text x="14" y="48" class="mono" font-size="11" fill="#059669">✔ Distributed WebSocket Engine: ACTIVE</text>
+      <text x="14" y="68" class="mono" font-size="11" fill="#4f46e5">✔ LLaMA 3 &amp; Groq AI Pipeline: READY</text>
+      <text x="14" y="88" class="mono" font-size="11" fill="#0284c7">✔ Competitive DSA Solvers: 100% OK</text>
+      
+      <!-- Blinking Shell Cursor -->
+      <rect x="250" y="78" width="6" height="11" fill="#0284c7">
+        <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+      </rect>
+      <line x1="14" y1="104" x2="364" y2="104" stroke="#e2e8f0" stroke-width="1"/>
+    </g>
+  </g>
+
+  <!-- ================= RIGHT PANEL: SYSTEM.INFO / TECH / PROJECTS ================= -->
+  <g transform="translate(466, 68)" filter="url(#softShadowLight)">
+    <!-- Panel Background -->
+    <rect width="678" height="506" rx="16" fill="url(#panelGradLight)" stroke="#e2e8f0" stroke-width="1.2"/>
+
+    <!-- Right Panel Header -->
+    <path d="M 0 16 Q 0 0 16 0 L 662 0 Q 678 0 678 16 L 678 36 L 0 36 Z" fill="#f1f5f9"/>
+    <line x1="0" y1="36" x2="678" y2="36" stroke="#e2e8f0" stroke-width="1"/>
+    <text x="24" y="23" class="mono label-header-light" fill="#7c3aed">02 // SYSTEM.INFO</text>
+    <text x="500" y="23" class="mono" font-size="10.5" fill="#64748b">[ PROFILE_INITIALIZED ]</text>
+
+    <!-- Main Identity & Name -->
+    <g transform="translate(24, 50)">
+      <text x="0" y="22" class="mono" font-size="11.5" fill="#0284c7" font-weight="700">abhinav@workstation:~$ ./launch_profile.sh --release</text>
+      
+      <text x="0" y="58" class="mono hero-title-light">ABHINAV SINGH BHADOURIA</text>
+      
+      <!-- Animated Rotating Role Badge with smooth SMIL -->
+      <g transform="translate(0, 70)">
+        <rect width="520" height="26" rx="6" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+        <text x="14" y="17" class="mono" font-size="11.5" fill="#0284c7" font-weight="700">&gt; ROLE :</text>
+        
+        <!-- Rotating Text 1 -->
+        <text x="82" y="17" class="mono" font-size="11.5" fill="#0f172a" font-weight="700">
+          Full-Stack Developer &amp; Distributed Systems Builder
+          <animate attributeName="opacity" values="1;1;0;0;0;0;1" dur="9s" repeatCount="indefinite" keyTimes="0;0.3;0.33;0.96;0.98;0.99;1"/>
+        </text>
+        <!-- Rotating Text 2 -->
+        <text x="82" y="17" class="mono" font-size="11.5" fill="#7c3aed" font-weight="700">
+          AI / ML Specialist &amp; LLM Application Integrator
+          <animate attributeName="opacity" values="0;0;1;1;0;0;0" dur="9s" repeatCount="indefinite" keyTimes="0;0.33;0.36;0.63;0.66;0.99;1"/>
+        </text>
+        <!-- Rotating Text 3 -->
+        <text x="82" y="17" class="mono" font-size="11.5" fill="#059669" font-weight="700">
+          Competitive Programmer &amp; Algorithm Specialist
+          <animate attributeName="opacity" values="0;0;0;0;1;1;0" dur="9s" repeatCount="indefinite" keyTimes="0;0.66;0.69;0.96;0.98;0.99;1"/>
+        </text>
+
+        <!-- Blinking cursor on role -->
+        <rect x="495" y="8" width="6" height="11" fill="#0284c7">
+          <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g>
+
+    <!-- Divider -->
+    <line x1="24" y1="162" x2="654" y2="162" stroke="#e2e8f0" stroke-width="1"/>
+
+    <!-- Key Metrics & Profile Info Grid -->
+    <g transform="translate(24, 174)">
+      <text x="0" y="14" class="mono accent-label-light">&gt; CORE FOCUS</text>
+      <text x="120" y="14" class="mono val-primary-light">Full-Stack MERN, Low-Latency WebSockets &amp; AI Pipelines</text>
+
+      <text x="0" y="36" class="mono accent-label-light">&gt; ALGORITHMS</text>
+      <text x="120" y="36" class="mono val-primary-light">LeetCode (ABHINAV_LATC) · CodeChef (op_finalboss_7)</text>
+
+      <text x="0" y="58" class="mono accent-label-light">&gt; NETWORKING</text>
+      <text x="120" y="58" class="mono val-primary-light">abhinavsinghbhadouria.cs@gmail.com · /in/abhibhadouria08</text>
+    </g>
+
+    <!-- Divider -->
+    <line x1="24" y1="248" x2="654" y2="248" stroke="#e2e8f0" stroke-width="1"/>
+
+    <!-- Tech Stack Matrix Pills -->
+    <g transform="translate(24, 260)">
+      <text x="0" y="12" class="mono label-header-light" fill="#4f46e5">03 // CORE CAPABILITIES &amp; TECH STACK</text>
+      
+      <!-- Stack Row 1 -->
+      <g transform="translate(0, 20)">
+        <g transform="translate(0, 0)">
+          <rect width="86" height="24" class="pill-box-light"/>
+          <circle cx="10" cy="12" r="3" fill="#0284c7"/>
+          <text x="18" y="16" class="mono pill-txt-light">React / Next</text>
+        </g>
+        <g transform="translate(92, 0)">
+          <rect width="92" height="24" class="pill-box-light"/>
+          <circle cx="10" cy="12" r="3" fill="#16a34a"/>
+          <text x="18" y="16" class="mono pill-txt-light">Node / Express</text>
+        </g>
+        <g transform="translate(190, 0)">
+          <rect width="86" height="24" class="pill-box-light"/>
+          <circle cx="10" cy="12" r="3" fill="#2563eb"/>
+          <text x="18" y="16" class="mono pill-txt-light">TypeScript</text>
+        </g>
+        <g transform="translate(282, 0)">
+          <rect width="68" height="24" class="pill-box-light"/>
+          <circle cx="10" cy="12" r="3" fill="#0284c7"/>
+          <text x="18" y="16" class="mono pill-txt-light">Python</text>
+        </g>
+        <g transform="translate(356, 0)">
+          <rect width="72" height="24" class="pill-box-light"/>
+          <circle cx="10" cy="12" r="3" fill="#4f46e5"/>
+          <text x="18" y="16" class="mono pill-txt-light">C++ / Java</text>
+        </g>
+        <g transform="translate(434, 0)">
+          <rect width="94" height="24" class="pill-box-light"/>
+          <circle cx="10" cy="12" r="3" fill="#7c3aed"/>
+          <text x="18" y="16" class="mono pill-txt-light">LLaMA 3 / AI</text>
+        </g>
+        <g transform="translate(534, 0)">
+          <rect width="96" height="24" class="pill-box-light"/>
+          <circle cx="10" cy="12" r="3" fill="#0284c7"/>
+          <text x="18" y="16" class="mono pill-txt-light">Docker / Linux</text>
+        </g>
+      </g>
+
+      <!-- Stack Row 2 -->
+      <g transform="translate(0, 50)">
+        <g transform="translate(0, 0)">
+          <rect width="82" height="24" class="pill-box-light"/>
+          <circle cx="10" cy="12" r="3" fill="#16a34a"/>
+          <text x="18" y="16" class="mono pill-txt-light">MongoDB</text>
+        </g>
+        <g transform="translate(88, 0)">
+          <rect width="90" height="24" class="pill-box-light"/>
+          <circle cx="10" cy="12" r="3" fill="#0284c7"/>
+          <text x="18" y="16" class="mono pill-txt-light">PostgreSQL</text>
+        </g>
+        <g transform="translate(184, 0)">
+          <rect width="66" height="24" class="pill-box-light"/>
+          <circle cx="10" cy="12" r="3" fill="#dc2626"/>
+          <text x="18" y="16" class="mono pill-txt-light">Redis</text>
+        </g>
+        <g transform="translate(256, 0)">
+          <rect width="90" height="24" class="pill-box-light"/>
+          <circle cx="10" cy="12" r="3" fill="#0891b2"/>
+          <text x="18" y="16" class="mono pill-txt-light">WebSockets</text>
+        </g>
+        <g transform="translate(352, 0)">
+          <rect width="82" height="24" class="pill-box-light"/>
+          <circle cx="10" cy="12" r="3" fill="#ea580c"/>
+          <text x="18" y="16" class="mono pill-txt-light">Groq API</text>
+        </g>
+        <g transform="translate(440, 0)">
+          <rect width="88" height="24" class="pill-box-light"/>
+          <circle cx="10" cy="12" r="3" fill="#d97706"/>
+          <text x="18" y="16" class="mono pill-txt-light">Scikit-Learn</text>
+        </g>
+        <g transform="translate(534, 0)">
+          <rect width="96" height="24" class="pill-box-light"/>
+          <circle cx="10" cy="12" r="3" fill="#d97706"/>
+          <text x="18" y="16" class="mono pill-txt-light">AWS / Cloud</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Divider -->
+    <line x1="24" y1="352" x2="654" y2="352" stroke="#e2e8f0" stroke-width="1"/>
+
+    <!-- Flagship Projects -->
+    <g transform="translate(24, 364)">
+      <text x="0" y="12" class="mono label-header-light" fill="#059669">04 // FLAGSHIP INVENTORIES</text>
+      
+      <!-- Project 1 -->
+      <g transform="translate(0, 22)">
+        <text x="0" y="12" class="mono" font-size="12" fill="#0284c7" font-weight="700">▸ ELYVO</text>
+        <text x="75" y="12" class="mono val-muted-light">Real-time full-duplex WebSocket platform containerized with Docker</text>
+      </g>
+
+      <!-- Project 2 -->
+      <g transform="translate(0, 42)">
+        <text x="0" y="12" class="mono" font-size="12" fill="#7c3aed" font-weight="700">▸ NEBULA NOTES</text>
+        <text x="130" y="12" class="mono val-muted-light">AI note synthesis via LLaMA 3 &amp; ultra-fast Groq API engine</text>
+      </g>
+
+      <!-- Project 3 -->
+      <g transform="translate(0, 62)">
+        <text x="0" y="12" class="mono" font-size="12" fill="#059669" font-weight="700">▸ ML PRICE ENGINE</text>
+        <text x="150" y="12" class="mono val-muted-light">High-accuracy real estate price regression ML pipeline</text>
+      </g>
+    </g>
+
+    <!-- Bottom Status / Terminal Prompt Bar -->
+    <g transform="translate(24, 466)">
+      <line x1="0" y1="0" x2="630" y2="0" stroke="#e2e8f0" stroke-width="1"/>
+      <text x="0" y="18" class="mono" font-size="11" fill="#64748b">[LINKEDIN: /in/abhibhadouria08]  [GITHUB: @AbhinavSinghBhadouria]</text>
+      <text x="495" y="18" class="mono" font-size="11" fill="#0284c7" font-weight="700">DEPLOYED ⚡</text>
+    </g>
+  </g>
+</svg>
