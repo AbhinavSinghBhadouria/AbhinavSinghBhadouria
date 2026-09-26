@@ -247,10 +247,10 @@ const abhinav: Developer = {
 
 ---
 
-### 🏆 `GitHub Achievements & Badges`
+### 🏆 `Engineering Badges & Achievements`
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=AbhinavSinghBhadouria&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=1&column=7" alt="GitHub Trophies" width="95%" />
+  <img src="./trophies.svg" alt="Engineering Achievements and Trophies" width="100%" />
 </div>
 
 <br />
