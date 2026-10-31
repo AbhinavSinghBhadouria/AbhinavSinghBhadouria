@@ -1,7 +1,7 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AbhinavSinghBhadouria/AbhinavSinghBhadouria/main/dark.svg?v=3" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AbhinavSinghBhadouria/AbhinavSinghBhadouria/main/light.svg?v=3" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AbhinavBhadouria/AbhinavSinghBhadouria/main/dark.svg?v=3" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AbhinavBhadouria/AbhinavSinghBhadouria/main/light.svg?v=3" />
     <img src="https://raw.githubusercontent.com/AbhinavSinghBhadouria/AbhinavSinghBhadouria/main/dark.svg?v=3" alt="Abhinav Singh Bhadouria - Full-Stack Developer &amp; AI Specialist" width="100%" />
   </picture>
 </div>
